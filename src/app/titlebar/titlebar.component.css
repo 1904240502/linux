@@ -1,0 +1,24 @@
+.span{
+    margin: 0 auto;
+    float: left;
+}
+.total
+{
+    height: 24px;
+    width: 185px;
+    overflow: hidden;
+}
+.search
+{
+    background-color: red;
+}
+.input
+{
+    height: 20px;
+    border: 1px red solid;
+    font-size: 12px;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+
+    float: left;
+}
