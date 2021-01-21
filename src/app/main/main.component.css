@@ -1,0 +1,98 @@
+.main1_text{
+    width: 100%;
+    display: grid;
+    grid-template-columns: [c1] 3fr [c2] 8fr [c3] 3fr [c4];
+    /*display: flex;
+    flex-direction: column;
+    align-content: center;*/
+   
+}
+.main1_text .photo{
+    margin-top: 15%;
+    width: 100%;
+    /*width: 40%;
+    align-self: center;*/
+    justify-self: center;
+    grid-column: 2/3;
+}
+.main1_text .text{
+    display: grid;
+    grid-column:  2 / 3;
+    /*text-align: center;*/
+}
+.main1_text #head1{
+    display: grid;
+    text-align: center;
+} 
+.main1_text .p1{
+    margin-top: 0px;
+    /*text-indent: 2em;*/
+}
+
+
+.main2_text{
+   
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: [c1] 2fr [c2] 3fr [c3] 3fr [c4] 2fr [c5];
+    justify-items: center;
+}
+.main2_text .photo{
+    grid-column: 2/3;
+    width: 90%;
+    min-width: 300px;
+    min-height: 250px;
+}
+.main2_text .total{
+    margin-left: 5%;
+    display: grid;
+    grid-column: 3/4;
+    min-width: 300px;
+    min-height: 250px;
+}
+.main2_text #head2{
+    margin-bottom: 0;
+    display: grid;
+    grid-column: 3/4;
+    text-align: center;
+}
+.main2_text .text{
+    margin-top: 0;
+    display: grid;
+    grid-column: 3/4;
+    list-style-type:none;
+}
+.main2_text .text .mail{
+    text-align: center;
+}
+
+
+.bottom{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background:rgb(190, 195, 207);
+}
+.map{
+    width: 40%;
+    height: 300px;
+    min-width: 300px;
+    min-height: 150px;
+    align-self: center;
+}
+.bottom .t{
+    display: flex;
+}
+.bottom .text{
+    list-style-type: none;
+}
+.bottom .text1{
+    padding-left: 25%;
+}
+.bottom .text2{
+    padding-left: 25%;
+}
+.bottom .t .text .li{
+    margin-top: 10px;
+}

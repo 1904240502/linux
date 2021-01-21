@@ -1,0 +1,62 @@
+.img {
+    height:300px;
+    background-image: url(../../assets/Specials_&_GiftCards1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    max-width: 936px;
+    margin: 0 auto;
+}
+.img_text {
+    color: rgb(213, 213, 213);
+    font-size: 5em;
+    line-height: 300px;
+    text-align: center;
+}
+
+
+
+.body_text {
+    padding-bottom: 56px;
+    padding-top: 56px;
+    font-family: "Crimson Text";
+    line-height: 25px;
+    font-size: 16px;
+}
+h1 {
+    color: rgb(194,59,59);
+    font-weight: normal;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.img1 {
+    text-align: center;
+}
+.photo {
+    max-width: 60%;
+    width: auto;
+    margin-top: 60px;
+}
+.hope {
+    color: rgb(194,59,59);
+    font-size: 28px;
+    line-height: 43px;
+}
+h2 {
+    font-weight: normal;
+    text-align: center;
+    color: rgb(89,89,89);
+}
+h4 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
+

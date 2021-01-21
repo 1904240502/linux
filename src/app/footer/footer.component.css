@@ -1,0 +1,26 @@
+.main {
+    max-width: 936px;
+    margin: 0 auto;
+}
+.footer {
+    font: 16px / 1 Lato, sans-serif;
+    background: rgb(242, 242,242);
+}
+.footer .main {
+    height: 87px;
+}
+.footer_top_text {
+    padding-bottom: 23px;
+}
+.footer .footer_top_text .text {
+    position: relative;
+    left: 75%;
+    top: 100%;
+}
+.footer_bottom_text {
+    padding-top: 50px;
+}
+a {
+    text-decoration: none;
+    color: rgb(146, 146,146);
+}
