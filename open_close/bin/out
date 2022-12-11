@@ -1,0 +1,4 @@
+fd1=1
+fd2=4
+dup2 writer
+rtn=12

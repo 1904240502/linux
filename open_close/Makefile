@@ -10,11 +10,9 @@ dir:
 
 ./bin/%:./src/%.cpp
 	$(CC) $< -o $@ $(myArgs)
-
 %:./src/%.cpp
 	$(CC) $< -o ./bin/$@ $(myArgs)
 clean:
 	-rm -rf $(target)
-
 .PHONY:clean ALL dir
 	
