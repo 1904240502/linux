@@ -62,11 +62,11 @@ int main()
  *
  * 创建映射区需要读权限 
  *
- *文件描述符在mmap创建后就可以关闭
+ * 文件描述符在mmap创建后就可以关闭
  *
- *offset必须是4096的整数被（MMU映射的最小单位 4k）
+ * offset必须是4096的整数被（MMU映射的最小单位 4k）
  *
- *MAP_PRIVATE只对内存修改 MAP_SHARED对磁盘进行修改
+ * MAP_PRIVATE|MAP_SHARED修改是否反映到文件 不同进程是共享还是独占
  *
  */
 
